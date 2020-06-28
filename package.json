@@ -1,0 +1,14 @@
+{
+  "name": "krabbot",
+  "version": "1.0.0",
+  "description": "KrabBot will give your server about legal free game(s) on the internet.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
