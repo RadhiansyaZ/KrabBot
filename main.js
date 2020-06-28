@@ -14,9 +14,13 @@ client.on('message', message => {
     const command = args.shift().toLowerCase();
         
     if (command === 'ping') {
-        message.channel.send('Pong!')
+        message.channel.send('Pong!');
     } else if (command === 'beep') {
-        message.channel.send('Boop.')
+        message.channel.send('Boop.');
+    } else if (command === 'commands'){
+        message.channel.send('This command currently unavailable, sorry :(');
+    } else {
+        message.channel.send('Command not found. Open list of commands with \\command');
     }
 
 });
