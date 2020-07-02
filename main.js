@@ -20,7 +20,7 @@ client.on('message', message => {
     } else if (command === 'commands'){
         message.channel.send('This command currently unavailable, sorry :(');
     } else {
-        message.channel.send('Command not found. Open list of commands with \\command');
+        message.channel.send('Command not found. Open list of commands with \\commands');
     }
 
 });
