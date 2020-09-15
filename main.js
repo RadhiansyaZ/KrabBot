@@ -3,6 +3,10 @@ const { prefix } = require('./config.json');
 const client = new Discord.Client();
 const fs = require('fs')
 
+if (process.env.NODE_ENV !== 'production') {
+    require('dotenv').config()
+}
+
 client.once('ready', () => {
     console.log('Ready!');
 });
