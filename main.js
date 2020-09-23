@@ -12,7 +12,7 @@ client.once('ready', () => {
 });
 
 client.commands = new Discord.Collection(); // Storing command list available for the bot.
-let commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));  
+const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));  
 // Array with string of <command>.js
 
 for (let file of commandFiles) { // Creating Collection of Command.
