@@ -111,3 +111,6 @@ dist
 .vscode-test
 
 # End of https://www.toptal.com/developers/gitignore/api/node
+
+# Bot Requirements and Future Plan(s)
+.plans
