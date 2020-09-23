@@ -8,8 +8,9 @@
 
 # Command List :
 ```bash
-\command args 1 ... args n
-# The args can be query, integer, or
+{prefix}command arg_1 ... arg_n
+# Default prefix is "\"
+# The args can be query, or song position.
 ```
 ## Phase 1 :
 1. latency
